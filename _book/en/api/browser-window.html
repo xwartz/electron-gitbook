@@ -1,0 +1,1608 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>BrowserWindow | Guides</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../api/content-tracing.html" />
+    
+    
+    <link rel="prev" href="../api/auto-updater.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="5.3" data-chapter-title="BrowserWindow" data-filepath="api/browser-window.md" data-basepath=".." data-revision="Sun Dec 13 2015 16:37:50 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> Guides</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="tutorial/supported-platforms.html">
+            
+                
+                    <a href="../tutorial/supported-platforms.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Supported Platforms
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="tutorial/application-distribution.html">
+            
+                
+                    <a href="../tutorial/application-distribution.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Application Distribution
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="tutorial/mac-app-store-submission-guide.html">
+            
+                
+                    <a href="../tutorial/mac-app-store-submission-guide.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Mac App Store Submission Guide
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="tutorial/application-packaging.html">
+            
+                
+                    <a href="../tutorial/application-packaging.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Application Packaging
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="tutorial/using-native-node-modules.html">
+            
+                
+                    <a href="../tutorial/using-native-node-modules.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Using Native Node Modules
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="tutorial/debugging-main-process.html">
+            
+                
+                    <a href="../tutorial/debugging-main-process.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Debugging Main Process
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="tutorial/using-selenium-and-webdriver.html">
+            
+                
+                    <a href="../tutorial/using-selenium-and-webdriver.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Using Selenium and WebDriver
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="tutorial/devtools-extension.html">
+            
+                
+                    <a href="../tutorial/devtools-extension.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        DevTools Extension
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="tutorial/using-pepper-flash-plugin.html">
+            
+                
+                    <a href="../tutorial/using-pepper-flash-plugin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        Using Pepper Flash Plugin
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> Tutorials</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="tutorial/quick-start.html">
+            
+                
+                    <a href="../tutorial/quick-start.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Quick Start
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="tutorial/desktop-environment-integration.html">
+            
+                
+                    <a href="../tutorial/desktop-environment-integration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Desktop Environment Integration
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="tutorial/online-offline-events.html">
+            
+                
+                    <a href="../tutorial/online-offline-events.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Online/Offline Event Detection
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> API References</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="api/synopsis.html">
+            
+                
+                    <a href="../api/synopsis.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Synopsis
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="api/process.html">
+            
+                
+                    <a href="../api/process.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Process Object
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="api/chrome-command-line-switches.html">
+            
+                
+                    <a href="../api/chrome-command-line-switches.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Supported Chrome Command Line Switches
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="api/environment-variables.html">
+            
+                
+                    <a href="../api/environment-variables.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Environment Variables
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> Custom DOM Elements:</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="api/file-object.html">
+            
+                
+                    <a href="../api/file-object.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        `File` Object
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="api/web-view-tag.html">
+            
+                
+                    <a href="../api/web-view-tag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        `&lt;webview&gt;` Tag
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="api/window-open.html">
+            
+                
+                    <a href="../api/window-open.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        `window.open` Function
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" >
+            
+            <span><b>5.</b> Modules for the Main Process:</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="api/app.html">
+            
+                
+                    <a href="../api/app.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        app
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="api/auto-updater.html">
+            
+                
+                    <a href="../api/auto-updater.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        autoUpdater
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.3" data-path="api/browser-window.html">
+            
+                
+                    <a href="../api/browser-window.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        BrowserWindow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="api/content-tracing.html">
+            
+                
+                    <a href="../api/content-tracing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        contentTracing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="api/dialog.html">
+            
+                
+                    <a href="../api/dialog.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        dialog
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="api/global-shortcut.html">
+            
+                
+                    <a href="../api/global-shortcut.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        globalShortcut
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="api/ipc-main.html">
+            
+                
+                    <a href="../api/ipc-main.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        ipcMain
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="api/menu.html">
+            
+                
+                    <a href="../api/menu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                        Menu
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="api/menu-item.html">
+            
+                
+                    <a href="../api/menu-item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                        MenuItem
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="api/power-monitor.html">
+            
+                
+                    <a href="../api/power-monitor.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                        powerMonitor
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="api/power-save-blocker.html">
+            
+                
+                    <a href="../api/power-save-blocker.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.11.</b>
+                        
+                        powerSaveBlocker
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="api/protocol.html">
+            
+                
+                    <a href="../api/protocol.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.12.</b>
+                        
+                        protocol
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.13" data-path="api/session.html">
+            
+                
+                    <a href="../api/session.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.13.</b>
+                        
+                        session
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.14" data-path="api/web-contents.html">
+            
+                
+                    <a href="../api/web-contents.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.14.</b>
+                        
+                        webContents
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.15" data-path="api/tray.html">
+            
+                
+                    <a href="../api/tray.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.15.</b>
+                        
+                        Tray
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" >
+            
+            <span><b>6.</b> Modules for the Renderer Process (Web Page):</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="api/desktop-capturer.html">
+            
+                
+                    <a href="../api/desktop-capturer.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        desktopCapturer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="api/ipc-renderer.html">
+            
+                
+                    <a href="../api/ipc-renderer.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        ipcRenderer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="api/remote.html">
+            
+                
+                    <a href="../api/remote.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        remote
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="api/web-frame.html">
+            
+                
+                    <a href="../api/web-frame.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        webFrame
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" >
+            
+            <span><b>7.</b> Modules for Both Processes:</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="api/clipboard.html">
+            
+                
+                    <a href="../api/clipboard.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        clipboard
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="api/crash-reporter.html">
+            
+                
+                    <a href="../api/crash-reporter.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        crashReporter
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="api/native-image.html">
+            
+                
+                    <a href="../api/native-image.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        nativeImage
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="api/screen.html">
+            
+                
+                    <a href="../api/screen.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        screen
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="api/shell.html">
+            
+                
+                    <a href="../api/shell.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                        shell
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" >
+            
+            <span><b>8.</b> Development</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="development/coding-style.html">
+            
+                
+                    <a href="../development/coding-style.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        Coding Style
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="development/source-code-directory-structure.html">
+            
+                
+                    <a href="../development/source-code-directory-structure.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                        Source Code Directory Structure
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="development/atom-shell-vs-node-webkit.html">
+            
+                
+                    <a href="../development/atom-shell-vs-node-webkit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.3.</b>
+                        
+                        Technical Differences to NW.js (formerly node-webkit)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="development/build-system-overview.html">
+            
+                
+                    <a href="../development/build-system-overview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.4.</b>
+                        
+                        Build System Overview
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="development/build-instructions-osx.html">
+            
+                
+                    <a href="../development/build-instructions-osx.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.5.</b>
+                        
+                        Build Instructions (OS X)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="development/build-instructions-windows.html">
+            
+                
+                    <a href="../development/build-instructions-windows.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.6.</b>
+                        
+                        Build Instructions (Windows)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="development/build-instructions-linux.html">
+            
+                
+                    <a href="../development/build-instructions-linux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.7.</b>
+                        
+                        Build Instructions (Linux)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="development/setting-up-symbol-server.html">
+            
+                
+                    <a href="../development/setting-up-symbol-server.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.8.</b>
+                        
+                        Setting Up Symbol Server in debugger
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Guides</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="browserwindow">BrowserWindow</h1>
+<p>The <code>BrowserWindow</code> class gives you the ability to create a browser window. For
+example:</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// In the main process.</span>
+<span class="hljs-keyword">const</span> BrowserWindow = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;electron&apos;</span>).BrowserWindow;
+
+<span class="hljs-comment">// Or in the renderer process.</span>
+<span class="hljs-keyword">const</span> BrowserWindow = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;electron&apos;</span>).remote.BrowserWindow;
+
+<span class="hljs-keyword">var</span> win = <span class="hljs-keyword">new</span> BrowserWindow({ width: <span class="hljs-number">800</span>, height: <span class="hljs-number">600</span>, show: <span class="hljs-literal">false</span> });
+win.on(<span class="hljs-string">&apos;closed&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  win = <span class="hljs-literal">null</span>;
+});
+
+win.loadURL(<span class="hljs-string">&apos;https://github.com&apos;</span>);
+win.show();
+</code></pre>
+<p>You can also create a window without chrome by using
+<a href="frameless-window.md">Frameless Window</a> API.</p>
+<h2 id="class-browserwindow">Class: BrowserWindow</h2>
+<p><code>BrowserWindow</code> is an
+<a href="http://nodejs.org/api/events.html#events_class_events_eventemitter" target="_blank">EventEmitter</a>.</p>
+<p>It creates a new <code>BrowserWindow</code> with native properties as set by the <code>options</code>.</p>
+<h3 id="new-browserwindowoptions"><code>new BrowserWindow([options])</code></h3>
+<p><code>options</code> Object (optional), properties:</p>
+<ul>
+<li><code>width</code> Integer - Window&apos;s width in pixels. Default is <code>800</code>.</li>
+<li><code>height</code> Integer - Window&apos;s height in pixels. Default is <code>600</code>.</li>
+<li><code>x</code> Integer - Window&apos;s left offset from screen. Default is to center the
+window.</li>
+<li><code>y</code> Integer - Window&apos;s top offset from screen. Default is to center the
+window.</li>
+<li><code>useContentSize</code> Boolean - The <code>width</code> and <code>height</code> would be used as web
+ page&apos;s size, which means the actual window&apos;s size will include window
+ frame&apos;s size and be slightly larger. Default is <code>false</code>.</li>
+<li><code>center</code> Boolean - Show window in the center of the screen.</li>
+<li><code>minWidth</code> Integer - Window&apos;s minimum width. Default is <code>0</code>.</li>
+<li><code>minHeight</code> Integer - Window&apos;s minimum height. Default is <code>0</code>.</li>
+<li><code>maxWidth</code> Integer - Window&apos;s maximum width. Default is no limit.</li>
+<li><code>maxHeight</code> Integer - Window&apos;s maximum height. Default is no limit.</li>
+<li><code>resizable</code> Boolean - Whether window is resizable. Default is <code>true</code>.</li>
+<li><code>alwaysOnTop</code> Boolean - Whether the window should always stay on top of
+ other windows. Default is <code>false</code>.</li>
+<li><code>fullscreen</code> Boolean - Whether the window should show in fullscreen. When
+set to <code>false</code> the fullscreen button will be hidden or disabled on OS X.
+Default is <code>false</code>.</li>
+<li><code>skipTaskbar</code> Boolean - Whether to show the window in taskbar. Default is
+<code>false</code>.</li>
+<li><code>kiosk</code> Boolean - The kiosk mode. Default is <code>false</code>.</li>
+<li><code>title</code> String - Default window title. Default is <code>&quot;Electron&quot;</code>.</li>
+<li><code>icon</code> <a href="native-image.html">NativeImage</a> - The window icon, when omitted on
+Windows the executable&apos;s icon would be used as window icon.</li>
+<li><code>show</code> Boolean - Whether window should be shown when created. Default is
+<code>true</code>.</li>
+<li><code>frame</code> Boolean - Specify <code>false</code> to create a
+<a href="frameless-window.md">Frameless Window</a>. Default is <code>true</code>.</li>
+<li><code>acceptFirstMouse</code> Boolean - Whether the web view accepts a single
+mouse-down event that simultaneously activates the window. Default is <code>false</code>.</li>
+<li><code>disableAutoHideCursor</code> Boolean - Whether to hide cursor when typing. Default
+is <code>false</code>.</li>
+<li><code>autoHideMenuBar</code> Boolean - Auto hide the menu bar unless the <code>Alt</code>
+key is pressed. Default is <code>false</code>.</li>
+<li><code>enableLargerThanScreen</code> Boolean - Enable the window to be resized larger
+than screen. Default is <code>false</code>.</li>
+<li><code>backgroundColor</code> String - Window&apos;s background color as Hexadecimal value,
+like <code>#66CD00</code> or <code>#FFF</code>. This is only implemented on Linux and Windows.
+Default is <code>#000</code> (black).</li>
+<li><code>darkTheme</code> Boolean - Forces using dark theme for the window, only works on
+some GTK+3 desktop environments. Default is <code>false</code>.</li>
+<li><code>transparent</code> Boolean - Makes the window <a href="frameless-window.md">transparent</a>.
+Default is <code>false</code>.</li>
+<li><code>type</code> String - Specifies the type of the window, which applies
+additional platform-specific properties. By default it&apos;s undefined and you&apos;ll
+get a regular app window. Supported values:<ul>
+<li>On Linux, possible types are <code>desktop</code>, <code>dock</code>, <code>toolbar</code>, <code>splash</code>,
+<code>notification</code>.</li>
+<li>On OS X, possible types are <code>desktop</code>, <code>textured</code>. The <code>textured</code> type adds
+metal gradient appearance (<code>NSTexturedBackgroundWindowMask</code>). The <code>desktop</code>
+type places the window at the desktop background window level
+(<code>kCGDesktopWindowLevel - 1</code>). Note that desktop window will not receive
+focus, keyboard or mouse events, but you can use <code>globalShortcut</code> to receive
+input sparingly.</li>
+</ul>
+</li>
+<li><code>titleBarStyle</code> String, OS X - specifies the style of window title bar.
+This option is supported on OS X 10.10 Yosemite and newer. There are three
+possible values:<ul>
+<li><code>default</code> or not specified, results in the standard gray opaque Mac title
+bar.</li>
+<li><code>hidden</code> results in a hidden title bar and a full size content window, yet
+the title bar still has the standard window controls (&quot;traffic lights&quot;) in
+the top left.</li>
+<li><code>hidden-inset</code> results in a hidden title bar with an alternative look
+where the traffic light buttons are slightly more inset from the window edge.</li>
+</ul>
+</li>
+<li><code>webPreferences</code> Object - Settings of web page&apos;s features, properties:<ul>
+<li><code>nodeIntegration</code> Boolean - Whether node integration is enabled. Default
+is <code>true</code>.</li>
+<li><code>preload</code> String - Specifies a script that will be loaded before other
+scripts run in the page. This script will always have access to node APIs
+no matter whether node integration is turned on or off. The value should
+be the absolute file path to the script.
+When node integration is turned off, the preload script can reintroduce
+Node global symbols back to the global scope. See example
+<a href="process.html#event-loaded">here</a>.</li>
+<li><code>partition</code> String - Sets the session used by the page. If <code>partition</code>
+starts with <code>persist:</code>, the page will use a persistent session available to
+all pages in the app with the same <code>partition</code>. if there is no <code>persist:</code>
+prefix, the page will use an in-memory session. By assigning the same
+<code>partition</code>, multiple pages can share the same session. If the <code>partition</code>
+is unset then default session of the app will be used.</li>
+<li><code>zoomFactor</code> Number - The default zoom factor of the page, <code>3.0</code> represents
+<code>300%</code>. Default is <code>1.0</code>.</li>
+<li><code>javascript</code> Boolean - Enables JavaScript support. Default is <code>true</code>.</li>
+<li><code>webSecurity</code> Boolean - When setting <code>false</code>, it will disable the
+same-origin policy (Usually using testing websites by people), and set
+<code>allowDisplayingInsecureContent</code> and <code>allowRunningInsecureContent</code> to
+<code>true</code> if these two options are not set by user. Default is <code>true</code>.</li>
+<li><code>allowDisplayingInsecureContent</code> Boolean - Allow an https page to display
+content like images from http URLs. Default is <code>false</code>.</li>
+<li><code>allowRunningInsecureContent</code> Boolean - Allow a https page to run
+JavaScript, CSS or plugins from http URLs. Default is <code>false</code>.</li>
+<li><code>images</code> Boolean - Enables image support. Default is <code>true</code>.</li>
+<li><code>textAreasAreResizable</code> Boolean - Make TextArea elements resizable. Default
+is <code>true</code>.</li>
+<li><code>webgl</code> Boolean - Enables WebGL support. Default is <code>true</code>.</li>
+<li><code>webaudio</code> Boolean - Enables WebAudio support. Default is <code>true</code>.</li>
+<li><code>plugins</code> Boolean - Whether plugins should be enabled. Default is <code>false</code>.</li>
+<li><code>experimentalFeatures</code> Boolean - Enables Chromium&apos;s experimental features.
+Default is <code>false</code>.</li>
+<li><code>experimentalCanvasFeatures</code> Boolean - Enables Chromium&apos;s experimental
+canvas features. Default is <code>false</code>.</li>
+<li><code>overlayScrollbars</code> Boolean - Enables overlay scrollbars. Default is
+<code>false</code>.</li>
+<li><code>sharedWorker</code> Boolean - Enables Shared Worker support. Default is <code>false</code>.</li>
+<li><code>directWrite</code> Boolean - Enables DirectWrite font rendering system on
+ Windows. Default is <code>true</code>.</li>
+<li><code>pageVisibility</code> Boolean - Page would be forced to be always in visible
+ or hidden state once set, instead of reflecting current window&apos;s
+ visibility. Users can set it to <code>true</code> to prevent throttling of DOM
+ timers. Default is <code>false</code>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="events">Events</h2>
+<p>The <code>BrowserWindow</code> object emits the following events:</p>
+<p><strong>Note:</strong> Some events are only available on specific operating systems and are labeled as such.</p>
+<h3 id="event-pagetitleupdated">Event: &apos;page-title-updated&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+</ul>
+<p>Emitted when the document changed its title, calling <code>event.preventDefault()</code>
+would prevent the native window&apos;s title to change.</p>
+<h3 id="event-close">Event: &apos;close&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+</ul>
+<p>Emitted when the window is going to be closed. It&apos;s emitted before the
+<code>beforeunload</code> and <code>unload</code> event of the DOM. Calling <code>event.preventDefault()</code>
+will cancel the close.</p>
+<p>Usually you would want to use the <code>beforeunload</code> handler to decide whether the
+window should be closed, which will also be called when the window is
+reloaded. In Electron, returning an empty string or <code>false</code> would cancel the
+close. For example:</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">window</span>.onbeforeunload = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;I do not want to be closed&apos;</span>);
+
+  <span class="hljs-comment">// Unlike usual browsers, in which a string should be returned and the user is</span>
+  <span class="hljs-comment">// prompted to confirm the page unload, Electron gives developers more options.</span>
+  <span class="hljs-comment">// Returning empty string or false would prevent the unloading now.</span>
+  <span class="hljs-comment">// You can also use the dialog API to let the user confirm closing the application.</span>
+  e.returnValue = <span class="hljs-literal">false</span>;
+};
+</code></pre>
+<h3 id="event-closed">Event: &apos;closed&apos;</h3>
+<p>Emitted when the window is closed. After you have received this event you should
+remove the reference to the window and avoid using it anymore.</p>
+<h3 id="event-unresponsive">Event: &apos;unresponsive&apos;</h3>
+<p>Emitted when the web page becomes unresponsive.</p>
+<h3 id="event-responsive">Event: &apos;responsive&apos;</h3>
+<p>Emitted when the unresponsive web page becomes responsive again.</p>
+<h3 id="event-blur">Event: &apos;blur&apos;</h3>
+<p>Emitted when the window loses focus.</p>
+<h3 id="event-focus">Event: &apos;focus&apos;</h3>
+<p>Emitted when the window gains focus.</p>
+<h3 id="event-maximize">Event: &apos;maximize&apos;</h3>
+<p>Emitted when window is maximized.</p>
+<h3 id="event-unmaximize">Event: &apos;unmaximize&apos;</h3>
+<p>Emitted when the window exits from maximized state.</p>
+<h3 id="event-minimize">Event: &apos;minimize&apos;</h3>
+<p>Emitted when the window is minimized.</p>
+<h3 id="event-restore">Event: &apos;restore&apos;</h3>
+<p>Emitted when the window is restored from minimized state.</p>
+<h3 id="event-resize">Event: &apos;resize&apos;</h3>
+<p>Emitted when the window is getting resized.</p>
+<h3 id="event-move">Event: &apos;move&apos;</h3>
+<p>Emitted when the window is getting moved to a new position.</p>
+<p><strong>Note</strong>: On OS X this event is just an alias of <code>moved</code>.</p>
+<h3 id="event-moved-os-x">Event: &apos;moved&apos; <em>OS X</em></h3>
+<p>Emitted once when the window is moved to a new position.</p>
+<h3 id="event-enterfullscreen">Event: &apos;enter-full-screen&apos;</h3>
+<p>Emitted when the window enters full screen state.</p>
+<h3 id="event-leavefullscreen">Event: &apos;leave-full-screen&apos;</h3>
+<p>Emitted when the window leaves full screen state.</p>
+<h3 id="event-enterhtmlfullscreen">Event: &apos;enter-html-full-screen&apos;</h3>
+<p>Emitted when the window enters full screen state triggered by html api.</p>
+<h3 id="event-leavehtmlfullscreen">Event: &apos;leave-html-full-screen&apos;</h3>
+<p>Emitted when the window leaves full screen state triggered by html api.</p>
+<h3 id="event-appcommand-windows">Event: &apos;app-command&apos; <em>Windows</em></h3>
+<p>Emitted when an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms646275(v=vs.85" target="_blank">App Command</a>.aspx)
+is invoked. These are typically related to keyboard media keys or browser
+commands, as well as the &quot;Back&quot; button built into some mice on Windows.</p>
+<pre><code class="lang-js">someWindow.on(<span class="hljs-string">&apos;app-command&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e, cmd</span>) </span>{
+  <span class="hljs-comment">// Navigate the window back when the user hits their mouse back button</span>
+  <span class="hljs-keyword">if</span> (cmd === <span class="hljs-string">&apos;browser-backward&apos;</span> &amp;&amp; someWindow.webContents.canGoBack()) {
+    someWindow.webContents.goBack();
+  }
+});
+</code></pre>
+<h2 id="methods">Methods</h2>
+<p>The <code>BrowserWindow</code> object has the following methods:</p>
+<h3 id="browserwindowgetallwindows"><code>BrowserWindow.getAllWindows()</code></h3>
+<p>Returns an array of all opened browser windows.</p>
+<h3 id="browserwindowgetfocusedwindow"><code>BrowserWindow.getFocusedWindow()</code></h3>
+<p>Returns the window that is focused in this application.</p>
+<h3 id="browserwindowfromwebcontentswebcontents"><code>BrowserWindow.fromWebContents(webContents)</code></h3>
+<ul>
+<li><code>webContents</code> <a href="web-contents.html">WebContents</a></li>
+</ul>
+<p>Find a window according to the <code>webContents</code> it owns.</p>
+<h3 id="browserwindowfromidid"><code>BrowserWindow.fromId(id)</code></h3>
+<ul>
+<li><code>id</code> Integer</li>
+</ul>
+<p>Find a window according to its ID.</p>
+<h3 id="browserwindowadddevtoolsextensionpath"><code>BrowserWindow.addDevToolsExtension(path)</code></h3>
+<ul>
+<li><code>path</code> String</li>
+</ul>
+<p>Adds DevTools extension located at <code>path</code>, and returns extension&apos;s name.</p>
+<p>The extension will be remembered so you only need to call this API once, this
+API is not for programming use.</p>
+<h3 id="browserwindowremovedevtoolsextensionname"><code>BrowserWindow.removeDevToolsExtension(name)</code></h3>
+<ul>
+<li><code>name</code> String</li>
+</ul>
+<p>Remove the DevTools extension whose name is <code>name</code>.</p>
+<h2 id="instance-properties">Instance Properties</h2>
+<p>Objects created with <code>new BrowserWindow</code> have the following properties:</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// In this example `win` is our instance</span>
+<span class="hljs-keyword">var</span> win = <span class="hljs-keyword">new</span> BrowserWindow({ width: <span class="hljs-number">800</span>, height: <span class="hljs-number">600</span> });
+</code></pre>
+<h3 id="winwebcontents"><code>win.webContents</code></h3>
+<p>The <code>WebContents</code> object this window owns, all web page related events and
+operations will be done via it.</p>
+<p>See the <a href="web-contents.html"><code>webContents</code> documentation</a> for its methods and
+events.</p>
+<h3 id="winid"><code>win.id</code></h3>
+<p>The unique ID of this window.</p>
+<h2 id="instance-methods">Instance Methods</h2>
+<p>Objects created with <code>new BrowserWindow</code> have the following instance methods:</p>
+<p><strong>Note:</strong> Some methods are only available on specific operating systems and are labeled as such.</p>
+<h3 id="windestroy"><code>win.destroy()</code></h3>
+<p>Force closing the window, the <code>unload</code> and <code>beforeunload</code> event won&apos;t be emitted
+for the web page, and <code>close</code> event will also not be emitted
+for this window, but it guarantees the <code>closed</code> event will be emitted.</p>
+<p>You should only use this method when the renderer process (web page) has
+crashed.</p>
+<h3 id="winclose"><code>win.close()</code></h3>
+<p>Try to close the window, this has the same effect with user manually clicking
+the close button of the window. The web page may cancel the close though, see
+the <a href="#event-close">close event</a>.</p>
+<h3 id="winfocus"><code>win.focus()</code></h3>
+<p>Focus on the window.</p>
+<h3 id="winisfocused"><code>win.isFocused()</code></h3>
+<p>Returns a boolean, whether the window is focused.</p>
+<h3 id="winshow"><code>win.show()</code></h3>
+<p>Shows and gives focus to the window.</p>
+<h3 id="winshowinactive"><code>win.showInactive()</code></h3>
+<p>Shows the window but doesn&apos;t focus on it.</p>
+<h3 id="winhide"><code>win.hide()</code></h3>
+<p>Hides the window.</p>
+<h3 id="winisvisible"><code>win.isVisible()</code></h3>
+<p>Returns a boolean, whether the window is visible to the user.</p>
+<h3 id="winmaximize"><code>win.maximize()</code></h3>
+<p>Maximizes the window.</p>
+<h3 id="winunmaximize"><code>win.unmaximize()</code></h3>
+<p>Unmaximizes the window.</p>
+<h3 id="winismaximized"><code>win.isMaximized()</code></h3>
+<p>Returns a boolean, whether the window is maximized.</p>
+<h3 id="winminimize"><code>win.minimize()</code></h3>
+<p>Minimizes the window. On some platforms the minimized window will be shown in
+the Dock.</p>
+<h3 id="winrestore"><code>win.restore()</code></h3>
+<p>Restores the window from minimized state to its previous state.</p>
+<h3 id="winisminimized"><code>win.isMinimized()</code></h3>
+<p>Returns a boolean, whether the window is minimized.</p>
+<h3 id="winsetfullscreenflag"><code>win.setFullScreen(flag)</code></h3>
+<ul>
+<li><code>flag</code> Boolean</li>
+</ul>
+<p>Sets whether the window should be in fullscreen mode.</p>
+<h3 id="winisfullscreen"><code>win.isFullScreen()</code></h3>
+<p>Returns a boolean, whether the window is in fullscreen mode.</p>
+<h3 id="winsetaspectratioaspectratio-extrasize-os-x"><code>win.setAspectRatio(aspectRatio[, extraSize])</code> <em>OS X</em></h3>
+<ul>
+<li><code>aspectRatio</code> The aspect ratio we want to maintain for some portion of the
+content view.</li>
+<li><code>extraSize</code> Object (optional) - The extra size not to be included while
+maintaining the aspect ratio. Properties:<ul>
+<li><code>width</code> Integer</li>
+<li><code>height</code> Integer</li>
+</ul>
+</li>
+</ul>
+<p>This will have a window maintain an aspect ratio. The extra size allows a
+developer to have space, specified in pixels, not included within the aspect
+ratio calculations. This API already takes into account the difference between a
+window&apos;s size and its content size.</p>
+<p>Consider a normal window with an HD video player and associated controls.
+Perhaps there are 15 pixels of controls on the left edge, 25 pixels of controls
+on the right edge and 50 pixels of controls below the player. In order to
+maintain a 16:9 aspect ratio (standard aspect ratio for HD @1920x1080) within
+the player itself we would call this function with arguments of 16/9 and
+[ 40, 50 ]. The second argument doesn&apos;t care where the extra width and height
+are within the content view--only that they exist. Just sum any extra width and
+height areas you have within the overall content view.</p>
+<h3 id="winsetboundsoptions"><code>win.setBounds(options)</code></h3>
+<p><code>options</code> Object, properties:</p>
+<ul>
+<li><code>x</code> Integer</li>
+<li><code>y</code> Integer</li>
+<li><code>width</code> Integer</li>
+<li><code>height</code> Integer</li>
+</ul>
+<p>Resizes and moves the window to <code>width</code>, <code>height</code>, <code>x</code>, <code>y</code>.</p>
+<h3 id="wingetbounds"><code>win.getBounds()</code></h3>
+<p>Returns an object that contains window&apos;s width, height, x and y values.</p>
+<h3 id="winsetsizewidth-height"><code>win.setSize(width, height)</code></h3>
+<ul>
+<li><code>width</code> Integer</li>
+<li><code>height</code> Integer</li>
+</ul>
+<p>Resizes the window to <code>width</code> and <code>height</code>.</p>
+<h3 id="wingetsize"><code>win.getSize()</code></h3>
+<p>Returns an array that contains window&apos;s width and height.</p>
+<h3 id="winsetcontentsizewidth-height"><code>win.setContentSize(width, height)</code></h3>
+<ul>
+<li><code>width</code> Integer</li>
+<li><code>height</code> Integer</li>
+</ul>
+<p>Resizes the window&apos;s client area (e.g. the web page) to <code>width</code> and <code>height</code>.</p>
+<h3 id="wingetcontentsize"><code>win.getContentSize()</code></h3>
+<p>Returns an array that contains window&apos;s client area&apos;s width and height.</p>
+<h3 id="winsetminimumsizewidth-height"><code>win.setMinimumSize(width, height)</code></h3>
+<ul>
+<li><code>width</code> Integer</li>
+<li><code>height</code> Integer</li>
+</ul>
+<p>Sets the minimum size of window to <code>width</code> and <code>height</code>.</p>
+<h3 id="wingetminimumsize"><code>win.getMinimumSize()</code></h3>
+<p>Returns an array that contains window&apos;s minimum width and height.</p>
+<h3 id="winsetmaximumsizewidth-height"><code>win.setMaximumSize(width, height)</code></h3>
+<ul>
+<li><code>width</code> Integer</li>
+<li><code>height</code> Integer</li>
+</ul>
+<p>Sets the maximum size of window to <code>width</code> and <code>height</code>.</p>
+<h3 id="wingetmaximumsize"><code>win.getMaximumSize()</code></h3>
+<p>Returns an array that contains window&apos;s maximum width and height.</p>
+<h3 id="winsetresizableresizable"><code>win.setResizable(resizable)</code></h3>
+<ul>
+<li><code>resizable</code> Boolean</li>
+</ul>
+<p>Sets whether the window can be manually resized by user.</p>
+<h3 id="winisresizable"><code>win.isResizable()</code></h3>
+<p>Returns whether the window can be manually resized by user.</p>
+<h3 id="winsetalwaysontopflag"><code>win.setAlwaysOnTop(flag)</code></h3>
+<ul>
+<li><code>flag</code> Boolean</li>
+</ul>
+<p>Sets whether the window should show always on top of other windows. After
+setting this, the window is still a normal window, not a toolbox window which
+can not be focused on.</p>
+<h3 id="winisalwaysontop"><code>win.isAlwaysOnTop()</code></h3>
+<p>Returns whether the window is always on top of other windows.</p>
+<h3 id="wincenter"><code>win.center()</code></h3>
+<p>Moves window to the center of the screen.</p>
+<h3 id="winsetpositionx-y"><code>win.setPosition(x, y)</code></h3>
+<ul>
+<li><code>x</code> Integer</li>
+<li><code>y</code> Integer</li>
+</ul>
+<p>Moves window to <code>x</code> and <code>y</code>.</p>
+<h3 id="wingetposition"><code>win.getPosition()</code></h3>
+<p>Returns an array that contains window&apos;s current position.</p>
+<h3 id="winsettitletitle"><code>win.setTitle(title)</code></h3>
+<ul>
+<li><code>title</code> String</li>
+</ul>
+<p>Changes the title of native window to <code>title</code>.</p>
+<h3 id="wingettitle"><code>win.getTitle()</code></h3>
+<p>Returns the title of the native window.</p>
+<p><strong>Note:</strong> The title of web page can be different from the title of the native
+window.</p>
+<h3 id="winflashframeflag"><code>win.flashFrame(flag)</code></h3>
+<ul>
+<li><code>flag</code> Boolean</li>
+</ul>
+<p>Starts or stops flashing the window to attract user&apos;s attention.</p>
+<h3 id="winsetskiptaskbarskip"><code>win.setSkipTaskbar(skip)</code></h3>
+<ul>
+<li><code>skip</code> Boolean</li>
+</ul>
+<p>Makes the window not show in the taskbar.</p>
+<h3 id="winsetkioskflag"><code>win.setKiosk(flag)</code></h3>
+<ul>
+<li><code>flag</code> Boolean</li>
+</ul>
+<p>Enters or leaves the kiosk mode.</p>
+<h3 id="winiskiosk"><code>win.isKiosk()</code></h3>
+<p>Returns whether the window is in kiosk mode.</p>
+<h3 id="winhookwindowmessagemessage-callback-windows"><code>win.hookWindowMessage(message, callback)</code> <em>Windows</em></h3>
+<ul>
+<li><code>message</code> Integer</li>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Hooks a windows message. The <code>callback</code> is called when
+the message is received in the WndProc.</p>
+<h3 id="winiswindowmessagehookedmessage-windows"><code>win.isWindowMessageHooked(message)</code> <em>Windows</em></h3>
+<ul>
+<li><code>message</code> Integer</li>
+</ul>
+<p>Returns <code>true</code> or <code>false</code> depending on whether the message is hooked.</p>
+<h3 id="winunhookwindowmessagemessage-windows"><code>win.unhookWindowMessage(message)</code> <em>Windows</em></h3>
+<ul>
+<li><code>message</code> Integer</li>
+</ul>
+<p>Unhook the window message.</p>
+<h3 id="winunhookallwindowmessages-windows"><code>win.unhookAllWindowMessages()</code> <em>Windows</em></h3>
+<p>Unhooks all of the window messages.</p>
+<h3 id="winsetrepresentedfilenamefilename-os-x"><code>win.setRepresentedFilename(filename)</code> <em>OS X</em></h3>
+<ul>
+<li><code>filename</code> String</li>
+</ul>
+<p>Sets the pathname of the file the window represents, and the icon of the file
+will show in window&apos;s title bar.</p>
+<h3 id="wingetrepresentedfilename-os-x"><code>win.getRepresentedFilename()</code> <em>OS X</em></h3>
+<p>Returns the pathname of the file the window represents.</p>
+<h3 id="winsetdocumenteditededited-os-x"><code>win.setDocumentEdited(edited)</code> <em>OS X</em></h3>
+<ul>
+<li><code>edited</code> Boolean</li>
+</ul>
+<p>Specifies whether the window&#x2019;s document has been edited, and the icon in title
+bar will become grey when set to <code>true</code>.</p>
+<h3 id="winisdocumentedited-os-x"><code>win.isDocumentEdited()</code> <em>OS X</em></h3>
+<p>Whether the window&apos;s document has been edited.</p>
+<h3 id="winfocusonwebview"><code>win.focusOnWebView()</code></h3>
+<h3 id="winblurwebview"><code>win.blurWebView()</code></h3>
+<h3 id="wincapturepagerect-callback"><code>win.capturePage([rect, ]callback)</code></h3>
+<ul>
+<li><code>rect</code> Object (optional)- The area of page to be captured, properties:<ul>
+<li><code>x</code> Integer</li>
+<li><code>y</code> Integer</li>
+<li><code>width</code> Integer</li>
+<li><code>height</code> Integer</li>
+</ul>
+</li>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Captures a snapshot of the page within <code>rect</code>. Upon completion <code>callback</code> will
+be called with <code>callback(image)</code>. The <code>image</code> is an instance of
+<a href="native-image.html">NativeImage</a> that stores data of the snapshot. Omitting
+<code>rect</code> will capture the whole visible page.</p>
+<h3 id="winprintoptions"><code>win.print([options])</code></h3>
+<p>Same as <code>webContents.print([options])</code></p>
+<h3 id="winprinttopdfoptions-callback"><code>win.printToPDF(options, callback)</code></h3>
+<p>Same as <code>webContents.printToPDF(options, callback)</code></p>
+<h3 id="winloadurlurl-options"><code>win.loadURL(url[, options])</code></h3>
+<p>Same as <code>webContents.loadURL(url[, options])</code>.</p>
+<h3 id="winreload"><code>win.reload()</code></h3>
+<p>Same as <code>webContents.reload</code>.</p>
+<h3 id="winsetmenumenu-linux-windows"><code>win.setMenu(menu)</code> <em>Linux</em> <em>Windows</em></h3>
+<ul>
+<li><code>menu</code> Menu</li>
+</ul>
+<p>Sets the <code>menu</code> as the window&apos;s menu bar, setting it to <code>null</code> will remove the
+menu bar.</p>
+<h3 id="winsetprogressbarprogress"><code>win.setProgressBar(progress)</code></h3>
+<ul>
+<li><code>progress</code> Double</li>
+</ul>
+<p>Sets progress value in progress bar. Valid range is [0, 1.0].</p>
+<p>Remove progress bar when progress &lt; 0;
+Change to indeterminate mode when progress &gt; 1.</p>
+<p>On Linux platform, only supports Unity desktop environment, you need to specify
+the <code>*.desktop</code> file name to <code>desktopName</code> field in <code>package.json</code>. By default,
+it will assume <code>app.getName().desktop</code>.</p>
+<h3 id="winsetoverlayiconoverlay-description-windows-7"><code>win.setOverlayIcon(overlay, description)</code> <em>Windows 7+</em></h3>
+<ul>
+<li><code>overlay</code> <a href="native-image.html">NativeImage</a> - the icon to display on the bottom
+right corner of the taskbar icon. If this parameter is <code>null</code>, the overlay is
+cleared</li>
+<li><code>description</code> String - a description that will be provided to Accessibility
+screen readers</li>
+</ul>
+<p>Sets a 16px overlay onto the current taskbar icon, usually used to convey some
+sort of application status or to passively notify the user.</p>
+<h3 id="winsetthumbarbuttonsbuttons-windows-7"><code>win.setThumbarButtons(buttons)</code> <em>Windows 7+</em></h3>
+<p><code>buttons</code> Array of <code>button</code> Objects:</p>
+<p><code>button</code> Object, properties:</p>
+<ul>
+<li><code>icon</code> <a href="native-image.html">NativeImage</a> - The icon showing in thumbnail
+toolbar.</li>
+<li><code>tooltip</code> String (optional) - The text of the button&apos;s tooltip.</li>
+<li><code>flags</code> Array (optional) - Control specific states and behaviors
+of the button. By default, it uses <code>enabled</code>. It can include following
+Strings:<ul>
+<li><code>enabled</code> - The button is active and available to the user.</li>
+<li><code>disabled</code> - The button is disabled. It is present, but has a visual
+state indicating it will not respond to user action.</li>
+<li><code>dismissonclick</code> - When the button is clicked, the taskbar button&apos;s
+flyout closes immediately.</li>
+<li><code>nobackground</code> - Do not draw a button border, use only the image.</li>
+<li><code>hidden</code> - The button is not shown to the user.</li>
+<li><code>noninteractive</code> - The button is enabled but not interactive; no
+pressed button state is drawn. This value is intended for instances
+where the button is used in a notification.</li>
+</ul>
+</li>
+<li><code>click</code> - Function</li>
+</ul>
+<p>Add a thumbnail toolbar with a specified set of buttons to the thumbnail image
+of a window in a taskbar button layout. Returns a <code>Boolean</code> object indicates
+whether the thumbnail has been added successfully.</p>
+<p>The number of buttons in thumbnail toolbar should be no greater than 7 due to
+the limited room. Once you setup the thumbnail toolbar, the toolbar cannot be
+removed due to the platform&apos;s limitation. But you can call the API with an empty
+array to clean the buttons.</p>
+<h3 id="winshowdefinitionforselection-os-x"><code>win.showDefinitionForSelection()</code> <em>OS X</em></h3>
+<p>Shows pop-up dictionary that searches the selected word on the page.</p>
+<h3 id="winsetautohidemenubarhide"><code>win.setAutoHideMenuBar(hide)</code></h3>
+<ul>
+<li><code>hide</code> Boolean</li>
+</ul>
+<p>Sets whether the window menu bar should hide itself automatically. Once set the
+menu bar will only show when users press the single <code>Alt</code> key.</p>
+<p>If the menu bar is already visible, calling <code>setAutoHideMenuBar(true)</code> won&apos;t
+hide it immediately.</p>
+<h3 id="winismenubarautohide"><code>win.isMenuBarAutoHide()</code></h3>
+<p>Returns whether menu bar automatically hides itself.</p>
+<h3 id="winsetmenubarvisibilityvisible"><code>win.setMenuBarVisibility(visible)</code></h3>
+<ul>
+<li><code>visible</code> Boolean</li>
+</ul>
+<p>Sets whether the menu bar should be visible. If the menu bar is auto-hide, users
+can still bring up the menu bar by pressing the single <code>Alt</code> key.</p>
+<h3 id="winismenubarvisible"><code>win.isMenuBarVisible()</code></h3>
+<p>Returns whether the menu bar is visible.</p>
+<h3 id="winsetvisibleonallworkspacesvisible"><code>win.setVisibleOnAllWorkspaces(visible)</code></h3>
+<ul>
+<li><code>visible</code> Boolean</li>
+</ul>
+<p>Sets whether the window should be visible on all workspaces.</p>
+<p><strong>Note:</strong> This API does nothing on Windows.</p>
+<h3 id="winisvisibleonallworkspaces"><code>win.isVisibleOnAllWorkspaces()</code></h3>
+<p>Returns whether the window is visible on all workspaces.</p>
+<p><strong>Note:</strong> This API always returns false on Windows.</p>
+<h3 id="winsetignoremouseeventsignore-os-x"><code>win.setIgnoreMouseEvents(ignore)</code> <em>OS X</em></h3>
+<ul>
+<li><code>ignore</code> Boolean</li>
+</ul>
+<p>Ignore all moused events that happened in the window.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../api/auto-updater.html" class="navigation navigation-prev " aria-label="Previous page: autoUpdater"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../api/content-tracing.html" class="navigation navigation-next " aria-label="Next page: contentTracing"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

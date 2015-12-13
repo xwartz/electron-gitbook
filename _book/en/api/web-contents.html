@@ -1,0 +1,1616 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>webContents | Guides</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../api/tray.html" />
+    
+    
+    <link rel="prev" href="../api/session.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="5.14" data-chapter-title="webContents" data-filepath="api/web-contents.md" data-basepath=".." data-revision="Sun Dec 13 2015 16:37:50 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> Guides</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="tutorial/supported-platforms.html">
+            
+                
+                    <a href="../tutorial/supported-platforms.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Supported Platforms
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="tutorial/application-distribution.html">
+            
+                
+                    <a href="../tutorial/application-distribution.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Application Distribution
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="tutorial/mac-app-store-submission-guide.html">
+            
+                
+                    <a href="../tutorial/mac-app-store-submission-guide.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Mac App Store Submission Guide
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="tutorial/application-packaging.html">
+            
+                
+                    <a href="../tutorial/application-packaging.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Application Packaging
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="tutorial/using-native-node-modules.html">
+            
+                
+                    <a href="../tutorial/using-native-node-modules.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Using Native Node Modules
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="tutorial/debugging-main-process.html">
+            
+                
+                    <a href="../tutorial/debugging-main-process.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Debugging Main Process
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="tutorial/using-selenium-and-webdriver.html">
+            
+                
+                    <a href="../tutorial/using-selenium-and-webdriver.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Using Selenium and WebDriver
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="tutorial/devtools-extension.html">
+            
+                
+                    <a href="../tutorial/devtools-extension.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        DevTools Extension
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="tutorial/using-pepper-flash-plugin.html">
+            
+                
+                    <a href="../tutorial/using-pepper-flash-plugin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        Using Pepper Flash Plugin
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> Tutorials</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="tutorial/quick-start.html">
+            
+                
+                    <a href="../tutorial/quick-start.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Quick Start
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="tutorial/desktop-environment-integration.html">
+            
+                
+                    <a href="../tutorial/desktop-environment-integration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Desktop Environment Integration
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="tutorial/online-offline-events.html">
+            
+                
+                    <a href="../tutorial/online-offline-events.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Online/Offline Event Detection
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> API References</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="api/synopsis.html">
+            
+                
+                    <a href="../api/synopsis.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Synopsis
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="api/process.html">
+            
+                
+                    <a href="../api/process.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Process Object
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="api/chrome-command-line-switches.html">
+            
+                
+                    <a href="../api/chrome-command-line-switches.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Supported Chrome Command Line Switches
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="api/environment-variables.html">
+            
+                
+                    <a href="../api/environment-variables.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Environment Variables
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> Custom DOM Elements:</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="api/file-object.html">
+            
+                
+                    <a href="../api/file-object.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        `File` Object
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="api/web-view-tag.html">
+            
+                
+                    <a href="../api/web-view-tag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        `&lt;webview&gt;` Tag
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="api/window-open.html">
+            
+                
+                    <a href="../api/window-open.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        `window.open` Function
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" >
+            
+            <span><b>5.</b> Modules for the Main Process:</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="api/app.html">
+            
+                
+                    <a href="../api/app.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        app
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="api/auto-updater.html">
+            
+                
+                    <a href="../api/auto-updater.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        autoUpdater
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="api/browser-window.html">
+            
+                
+                    <a href="../api/browser-window.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        BrowserWindow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="api/content-tracing.html">
+            
+                
+                    <a href="../api/content-tracing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        contentTracing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="api/dialog.html">
+            
+                
+                    <a href="../api/dialog.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        dialog
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="api/global-shortcut.html">
+            
+                
+                    <a href="../api/global-shortcut.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        globalShortcut
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="api/ipc-main.html">
+            
+                
+                    <a href="../api/ipc-main.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        ipcMain
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="api/menu.html">
+            
+                
+                    <a href="../api/menu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                        Menu
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="api/menu-item.html">
+            
+                
+                    <a href="../api/menu-item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                        MenuItem
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="api/power-monitor.html">
+            
+                
+                    <a href="../api/power-monitor.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                        powerMonitor
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="api/power-save-blocker.html">
+            
+                
+                    <a href="../api/power-save-blocker.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.11.</b>
+                        
+                        powerSaveBlocker
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="api/protocol.html">
+            
+                
+                    <a href="../api/protocol.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.12.</b>
+                        
+                        protocol
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.13" data-path="api/session.html">
+            
+                
+                    <a href="../api/session.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.13.</b>
+                        
+                        session
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.14" data-path="api/web-contents.html">
+            
+                
+                    <a href="../api/web-contents.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.14.</b>
+                        
+                        webContents
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.15" data-path="api/tray.html">
+            
+                
+                    <a href="../api/tray.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.15.</b>
+                        
+                        Tray
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" >
+            
+            <span><b>6.</b> Modules for the Renderer Process (Web Page):</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="api/desktop-capturer.html">
+            
+                
+                    <a href="../api/desktop-capturer.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        desktopCapturer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="api/ipc-renderer.html">
+            
+                
+                    <a href="../api/ipc-renderer.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        ipcRenderer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="api/remote.html">
+            
+                
+                    <a href="../api/remote.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        remote
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="api/web-frame.html">
+            
+                
+                    <a href="../api/web-frame.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        webFrame
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" >
+            
+            <span><b>7.</b> Modules for Both Processes:</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="api/clipboard.html">
+            
+                
+                    <a href="../api/clipboard.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        clipboard
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="api/crash-reporter.html">
+            
+                
+                    <a href="../api/crash-reporter.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        crashReporter
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="api/native-image.html">
+            
+                
+                    <a href="../api/native-image.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        nativeImage
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="api/screen.html">
+            
+                
+                    <a href="../api/screen.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        screen
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="api/shell.html">
+            
+                
+                    <a href="../api/shell.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                        shell
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" >
+            
+            <span><b>8.</b> Development</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="development/coding-style.html">
+            
+                
+                    <a href="../development/coding-style.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        Coding Style
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="development/source-code-directory-structure.html">
+            
+                
+                    <a href="../development/source-code-directory-structure.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                        Source Code Directory Structure
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="development/atom-shell-vs-node-webkit.html">
+            
+                
+                    <a href="../development/atom-shell-vs-node-webkit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.3.</b>
+                        
+                        Technical Differences to NW.js (formerly node-webkit)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="development/build-system-overview.html">
+            
+                
+                    <a href="../development/build-system-overview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.4.</b>
+                        
+                        Build System Overview
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="development/build-instructions-osx.html">
+            
+                
+                    <a href="../development/build-instructions-osx.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.5.</b>
+                        
+                        Build Instructions (OS X)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="development/build-instructions-windows.html">
+            
+                
+                    <a href="../development/build-instructions-windows.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.6.</b>
+                        
+                        Build Instructions (Windows)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="development/build-instructions-linux.html">
+            
+                
+                    <a href="../development/build-instructions-linux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.7.</b>
+                        
+                        Build Instructions (Linux)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="development/setting-up-symbol-server.html">
+            
+                
+                    <a href="../development/setting-up-symbol-server.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.8.</b>
+                        
+                        Setting Up Symbol Server in debugger
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Guides</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="webcontents">webContents</h1>
+<p><code>webContents</code> is an
+<a href="http://nodejs.org/api/events.html#events_class_events_eventemitter" target="_blank">EventEmitter</a>.</p>
+<p>It is responsible for rendering and controlling a web page and is a property of
+the <a href="browser-window.html"><code>BrowserWindow</code></a> object. An example of accessing the
+<code>webContents</code> object:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> BrowserWindow = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;electron&apos;</span>).BrowserWindow;
+
+<span class="hljs-keyword">var</span> win = <span class="hljs-keyword">new</span> BrowserWindow({width: <span class="hljs-number">800</span>, height: <span class="hljs-number">1500</span>});
+win.loadURL(<span class="hljs-string">&quot;http://github.com&quot;</span>);
+
+<span class="hljs-keyword">var</span> webContents = win.webContents;
+</code></pre>
+<h2 id="events">Events</h2>
+<p>The <code>webContents</code> object emits the following events:</p>
+<h3 id="event-didfinishload">Event: &apos;did-finish-load&apos;</h3>
+<p>Emitted when the navigation is done, i.e. the spinner of the tab has stopped
+spinning, and the <code>onload</code> event was dispatched.</p>
+<h3 id="event-didfailload">Event: &apos;did-fail-load&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>errorCode</code> Integer</li>
+<li><code>errorDescription</code> String</li>
+<li><code>validatedURL</code> String</li>
+</ul>
+<p>This event is like <code>did-finish-load</code> but emitted when the load failed or was
+cancelled, e.g. <code>window.stop()</code> is invoked.
+The full list of error codes and their meaning is available <a href="https://code.google.com/p/chromium/codesearch#chromium/src/net/base/net_error_list.h" target="_blank">here</a>.</p>
+<h3 id="event-didframefinishload">Event: &apos;did-frame-finish-load&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>isMainFrame</code> Boolean</li>
+</ul>
+<p>Emitted when a frame has done navigation.</p>
+<h3 id="event-didstartloading">Event: &apos;did-start-loading&apos;</h3>
+<p>Corresponds to the points in time when the spinner of the tab started spinning.</p>
+<h3 id="event-didstoploading">Event: &apos;did-stop-loading&apos;</h3>
+<p>Corresponds to the points in time when the spinner of the tab stopped spinning.</p>
+<h3 id="event-didgetresponsedetails">Event: &apos;did-get-response-details&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>status</code> Boolean</li>
+<li><code>newURL</code> String</li>
+<li><code>originalURL</code> String</li>
+<li><code>httpResponseCode</code> Integer</li>
+<li><code>requestMethod</code> String</li>
+<li><code>referrer</code> String</li>
+<li><code>headers</code> Object</li>
+</ul>
+<p>Emitted when details regarding a requested resource are available.
+<code>status</code> indicates the socket connection to download the resource.</p>
+<h3 id="event-didgetredirectrequest">Event: &apos;did-get-redirect-request&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>oldURL</code> String</li>
+<li><code>newURL</code> String</li>
+<li><code>isMainFrame</code> Boolean</li>
+<li><code>httpResponseCode</code> Integer</li>
+<li><code>requestMethod</code> String</li>
+<li><code>referrer</code> String</li>
+<li><code>headers</code> Object</li>
+</ul>
+<p>Emitted when a redirect is received while requesting a resource.</p>
+<h3 id="event-domready">Event: &apos;dom-ready&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+</ul>
+<p>Emitted when the document in the given frame is loaded.</p>
+<h3 id="event-pagefaviconupdated">Event: &apos;page-favicon-updated&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>favicons</code> Array - Array of URLs</li>
+</ul>
+<p>Emitted when page receives favicon urls.</p>
+<h3 id="event-newwindow">Event: &apos;new-window&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>url</code> String</li>
+<li><code>frameName</code> String</li>
+<li><code>disposition</code> String - Can be <code>default</code>, <code>foreground-tab</code>, <code>background-tab</code>,
+<code>new-window</code> and <code>other</code>.</li>
+<li><code>options</code> Object - The options which will be used for creating the new
+<code>BrowserWindow</code>.</li>
+</ul>
+<p>Emitted when the page requests to open a new window for a <code>url</code>. It could be
+requested by <code>window.open</code> or an external link like <code>&lt;a target=&apos;_blank&apos;&gt;</code>.</p>
+<p>By default a new <code>BrowserWindow</code> will be created for the <code>url</code>.</p>
+<p>Calling <code>event.preventDefault()</code> will prevent creating new windows.</p>
+<h3 id="event-willnavigate">Event: &apos;will-navigate&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>url</code> String</li>
+</ul>
+<p>Emitted when a user or the page wants to start navigation. It can happen when the
+<code>window.location</code> object is changed or a user clicks a link in the page.</p>
+<p>This event will not emit when the navigation is started programmatically with
+APIs like <code>webContents.loadURL</code> and <code>webContents.back</code>.</p>
+<p>Calling <code>event.preventDefault()</code> will prevent the navigation.</p>
+<h3 id="event-crashed">Event: &apos;crashed&apos;</h3>
+<p>Emitted when the renderer process has crashed.</p>
+<h3 id="event-plugincrashed">Event: &apos;plugin-crashed&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>name</code> String</li>
+<li><code>version</code> String</li>
+</ul>
+<p>Emitted when a plugin process has crashed.</p>
+<h3 id="event-destroyed">Event: &apos;destroyed&apos;</h3>
+<p>Emitted when <code>webContents</code> is destroyed.</p>
+<h3 id="event-devtoolsopened">Event: &apos;devtools-opened&apos;</h3>
+<p>Emitted when DevTools is opened.</p>
+<h3 id="event-devtoolsclosed">Event: &apos;devtools-closed&apos;</h3>
+<p>Emitted when DevTools is closed.</p>
+<h3 id="event-devtoolsfocused">Event: &apos;devtools-focused&apos;</h3>
+<p>Emitted when DevTools is focused / opened.</p>
+<h3 id="event-certificateerror">Event: &apos;certificate-error&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>url</code> URL</li>
+<li><code>error</code> String - The error code</li>
+<li><code>certificate</code> Object<ul>
+<li><code>data</code> Buffer - PEM encoded data</li>
+<li><code>issuerName</code> String</li>
+</ul>
+</li>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Emitted when failed to verify the <code>certificate</code> for <code>url</code>.</p>
+<p>The usage is the same with <a href="app.html#event-certificate-error">the <code>certificate-error</code> event of
+<code>app</code></a>.</p>
+<h3 id="event-selectclientcertificate">Event: &apos;select-client-certificate&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>url</code> URL</li>
+<li><code>certificateList</code> [Objects]<ul>
+<li><code>data</code> Buffer - PEM encoded data</li>
+<li><code>issuerName</code> String - Issuer&apos;s Common Name</li>
+</ul>
+</li>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Emitted when a client certificate is requested.</p>
+<p>The usage is the same with <a href="app.html#event-select-client-certificate">the <code>select-client-certificate</code> event of
+<code>app</code></a>.</p>
+<h3 id="event-login">Event: &apos;login&apos;</h3>
+<p>Returns:</p>
+<ul>
+<li><code>event</code> Event</li>
+<li><code>request</code> Object<ul>
+<li><code>method</code> String</li>
+<li><code>url</code> URL</li>
+<li><code>referrer</code> URL</li>
+</ul>
+</li>
+<li><code>authInfo</code> Object<ul>
+<li><code>isProxy</code> Boolean</li>
+<li><code>scheme</code> String</li>
+<li><code>host</code> String</li>
+<li><code>port</code> Integer</li>
+<li><code>realm</code> String</li>
+</ul>
+</li>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Emitted when <code>webContents</code> wants to do basic auth.</p>
+<p>The usage is the same with <a href="app.html#event-login">the <code>login</code> event of <code>app</code></a>.</p>
+<h2 id="instance-methods">Instance Methods</h2>
+<p>The <code>webContents</code> object has the following instance methods:</p>
+<h3 id="webcontentsloadurlurl-options"><code>webContents.loadURL(url[, options])</code></h3>
+<ul>
+<li><code>url</code> URL</li>
+<li><code>options</code> Object (optional), properties:<ul>
+<li><code>httpReferrer</code> String - A HTTP Referrer url.</li>
+<li><code>userAgent</code> String - A user agent originating the request.</li>
+<li><code>extraHeaders</code> String - Extra headers separated by &quot;\n&quot;</li>
+</ul>
+</li>
+</ul>
+<p>Loads the <code>url</code> in the window, the <code>url</code> must contain the protocol prefix,
+e.g. the <code>http://</code> or <code>file://</code>. If the load should bypass http cache then
+use the <code>pragma</code> header to achieve it.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> options = {<span class="hljs-string">&quot;extraHeaders&quot;</span> : <span class="hljs-string">&quot;pragma: no-cache\n&quot;</span>}
+webContents.loadURL(url, options)
+</code></pre>
+<h3 id="webcontentsdownloadurlurl"><code>webContents.downloadURL(url)</code></h3>
+<ul>
+<li><code>url</code> URL</li>
+</ul>
+<p>Initiates a download of the resource at <code>url</code> without navigating. The
+<code>will-download</code> event of <code>session</code> will be triggered.</p>
+<h3 id="webcontentsgeturl"><code>webContents.getURL()</code></h3>
+<p>Returns URL of the current web page.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> win = <span class="hljs-keyword">new</span> BrowserWindow({width: <span class="hljs-number">800</span>, height: <span class="hljs-number">600</span>});
+win.loadURL(<span class="hljs-string">&quot;http://github.com&quot;</span>);
+
+<span class="hljs-keyword">var</span> currentURL = win.webContents.getURL();
+</code></pre>
+<h3 id="webcontentsgettitle"><code>webContents.getTitle()</code></h3>
+<p>Returns the title of the current web page.</p>
+<h3 id="webcontentsisloading"><code>webContents.isLoading()</code></h3>
+<p>Returns whether web page is still loading resources.</p>
+<h3 id="webcontentsiswaitingforresponse"><code>webContents.isWaitingForResponse()</code></h3>
+<p>Returns whether the web page is waiting for a first-response from the main
+resource of the page.</p>
+<h3 id="webcontentsstop"><code>webContents.stop()</code></h3>
+<p>Stops any pending navigation.</p>
+<h3 id="webcontentsreload"><code>webContents.reload()</code></h3>
+<p>Reloads the current web page.</p>
+<h3 id="webcontentsreloadignoringcache"><code>webContents.reloadIgnoringCache()</code></h3>
+<p>Reloads current page and ignores cache.</p>
+<h3 id="webcontentscangoback"><code>webContents.canGoBack()</code></h3>
+<p>Returns whether the browser can go back to previous web page.</p>
+<h3 id="webcontentscangoforward"><code>webContents.canGoForward()</code></h3>
+<p>Returns whether the browser can go forward to next web page.</p>
+<h3 id="webcontentscangotooffsetoffset"><code>webContents.canGoToOffset(offset)</code></h3>
+<ul>
+<li><code>offset</code> Integer</li>
+</ul>
+<p>Returns whether the web page can go to <code>offset</code>.</p>
+<h3 id="webcontentsclearhistory"><code>webContents.clearHistory()</code></h3>
+<p>Clears the navigation history.</p>
+<h3 id="webcontentsgoback"><code>webContents.goBack()</code></h3>
+<p>Makes the browser go back a web page.</p>
+<h3 id="webcontentsgoforward"><code>webContents.goForward()</code></h3>
+<p>Makes the browser go forward a web page.</p>
+<h3 id="webcontentsgotoindexindex"><code>webContents.goToIndex(index)</code></h3>
+<ul>
+<li><code>index</code> Integer</li>
+</ul>
+<p>Navigates browser to the specified absolute web page index.</p>
+<h3 id="webcontentsgotooffsetoffset"><code>webContents.goToOffset(offset)</code></h3>
+<ul>
+<li><code>offset</code> Integer</li>
+</ul>
+<p>Navigates to the specified offset from the &quot;current entry&quot;.</p>
+<h3 id="webcontentsiscrashed"><code>webContents.isCrashed()</code></h3>
+<p>Whether the renderer process has crashed.</p>
+<h3 id="webcontentssetuseragentuseragent"><code>webContents.setUserAgent(userAgent)</code></h3>
+<ul>
+<li><code>userAgent</code> String</li>
+</ul>
+<p>Overrides the user agent for this web page.</p>
+<h3 id="webcontentsgetuseragent"><code>webContents.getUserAgent()</code></h3>
+<p>Returns a <code>String</code> representing the user agent for this web page.</p>
+<h3 id="webcontentsinsertcsscss"><code>webContents.insertCSS(css)</code></h3>
+<ul>
+<li><code>css</code> String</li>
+</ul>
+<p>Injects CSS into the current web page.</p>
+<h3 id="webcontentsexecutejavascriptcode-usergesture"><code>webContents.executeJavaScript(code[, userGesture])</code></h3>
+<ul>
+<li><code>code</code> String</li>
+<li><code>userGesture</code> Boolean (optional)</li>
+</ul>
+<p>Evaluates <code>code</code> in page.</p>
+<p>In the browser window some HTML APIs like <code>requestFullScreen</code> can only be
+invoked by a gesture from the user. Setting <code>userGesture</code> to <code>true</code> will remove
+this limitation.</p>
+<h3 id="webcontentssetaudiomutedmuted"><code>webContents.setAudioMuted(muted)</code></h3>
+<ul>
+<li><code>muted</code> Boolean</li>
+</ul>
+<p>Mute the audio on the current web page.</p>
+<h3 id="webcontentsisaudiomuted"><code>webContents.isAudioMuted()</code></h3>
+<p>Returns whether this page has been muted.</p>
+<h3 id="webcontentsundo"><code>webContents.undo()</code></h3>
+<p>Executes the editing command <code>undo</code> in web page.</p>
+<h3 id="webcontentsredo"><code>webContents.redo()</code></h3>
+<p>Executes the editing command <code>redo</code> in web page.</p>
+<h3 id="webcontentscut"><code>webContents.cut()</code></h3>
+<p>Executes the editing command <code>cut</code> in web page.</p>
+<h3 id="webcontentscopy"><code>webContents.copy()</code></h3>
+<p>Executes the editing command <code>copy</code> in web page.</p>
+<h3 id="webcontentspaste"><code>webContents.paste()</code></h3>
+<p>Executes the editing command <code>paste</code> in web page.</p>
+<h3 id="webcontentspasteandmatchstyle"><code>webContents.pasteAndMatchStyle()</code></h3>
+<p>Executes the editing command <code>pasteAndMatchStyle</code> in web page.</p>
+<h3 id="webcontentsdelete"><code>webContents.delete()</code></h3>
+<p>Executes the editing command <code>delete</code> in web page.</p>
+<h3 id="webcontentsselectall"><code>webContents.selectAll()</code></h3>
+<p>Executes the editing command <code>selectAll</code> in web page.</p>
+<h3 id="webcontentsunselect"><code>webContents.unselect()</code></h3>
+<p>Executes the editing command <code>unselect</code> in web page.</p>
+<h3 id="webcontentsreplacetext"><code>webContents.replace(text)</code></h3>
+<ul>
+<li><code>text</code> String</li>
+</ul>
+<p>Executes the editing command <code>replace</code> in web page.</p>
+<h3 id="webcontentsreplacemisspellingtext"><code>webContents.replaceMisspelling(text)</code></h3>
+<ul>
+<li><code>text</code> String</li>
+</ul>
+<p>Executes the editing command <code>replaceMisspelling</code> in web page.</p>
+<h3 id="webcontentshasserviceworkercallback"><code>webContents.hasServiceWorker(callback)</code></h3>
+<ul>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Checks if any ServiceWorker is registered and returns a boolean as
+response to <code>callback</code>.</p>
+<h3 id="webcontentsunregisterserviceworkercallback"><code>webContents.unregisterServiceWorker(callback)</code></h3>
+<ul>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Unregisters any ServiceWorker if present and returns a boolean as
+response to <code>callback</code> when the JS promise is fulfilled or false
+when the JS promise is rejected.</p>
+<h3 id="webcontentsprintoptions"><code>webContents.print([options])</code></h3>
+<p><code>options</code> Object (optional), properties:</p>
+<ul>
+<li><code>silent</code> Boolean - Don&apos;t ask user for print settings, defaults to <code>false</code></li>
+<li><code>printBackground</code> Boolean - Also prints the background color and image of
+the web page, defaults to <code>false</code>.</li>
+</ul>
+<p>Prints window&apos;s web page. When <code>silent</code> is set to <code>false</code>, Electron will pick
+up system&apos;s default printer and default settings for printing.</p>
+<p>Calling <code>window.print()</code> in web page is equivalent to calling
+<code>webContents.print({silent: false, printBackground: false})</code>.</p>
+<p><strong>Note:</strong> On Windows, the print API relies on <code>pdf.dll</code>. If your application
+doesn&apos;t need the print feature, you can safely remove <code>pdf.dll</code> to reduce binary
+size.</p>
+<h3 id="webcontentsprinttopdfoptions-callback"><code>webContents.printToPDF(options, callback)</code></h3>
+<p><code>options</code> Object, properties:</p>
+<ul>
+<li><code>marginsType</code> Integer - Specify the type of margins to use<ul>
+<li>0 - default</li>
+<li>1 - none</li>
+<li>2 - minimum</li>
+</ul>
+</li>
+<li><code>pageSize</code> String - Specify page size of the generated PDF.<ul>
+<li><code>A4</code></li>
+<li><code>A3</code></li>
+<li><code>Legal</code></li>
+<li><code>Letter</code></li>
+<li><code>Tabloid</code></li>
+</ul>
+</li>
+<li><code>printBackground</code> Boolean - Whether to print CSS backgrounds.</li>
+<li><code>printSelectionOnly</code> Boolean - Whether to print selection only.</li>
+<li><code>landscape</code> Boolean - <code>true</code> for landscape, <code>false</code> for portrait.</li>
+</ul>
+<p><code>callback</code> Function - <code>function(error, data) {}</code></p>
+<ul>
+<li><code>error</code> Error</li>
+<li><code>data</code> Buffer - PDF file content.</li>
+</ul>
+<p>Prints window&apos;s web page as PDF with Chromium&apos;s preview printing custom
+settings.</p>
+<p>By default, an empty <code>options</code> will be regarded as:</p>
+<pre><code class="lang-javascript">{
+  marginsType: <span class="hljs-number">0</span>,
+  printBackground: <span class="hljs-literal">false</span>,
+  printSelectionOnly: <span class="hljs-literal">false</span>,
+  landscape: <span class="hljs-literal">false</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> BrowserWindow = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;electron&apos;</span>).BrowserWindow;
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+
+<span class="hljs-keyword">var</span> win = <span class="hljs-keyword">new</span> BrowserWindow({width: <span class="hljs-number">800</span>, height: <span class="hljs-number">600</span>});
+win.loadURL(<span class="hljs-string">&quot;http://github.com&quot;</span>);
+
+win.webContents.on(<span class="hljs-string">&quot;did-finish-load&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-comment">// Use default printing options</span>
+  win.webContents.printToPDF({}, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error, data</span>) </span>{
+    <span class="hljs-keyword">if</span> (error) <span class="hljs-keyword">throw</span> error;
+    fs.writeFile(<span class="hljs-string">&quot;/tmp/print.pdf&quot;</span>, data, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{
+      <span class="hljs-keyword">if</span> (error)
+        <span class="hljs-keyword">throw</span> error;
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;Write PDF successfully.&quot;</span>);
+    })
+  })
+});
+</code></pre>
+<h3 id="webcontentsaddworkspacepath"><code>webContents.addWorkSpace(path)</code></h3>
+<ul>
+<li><code>path</code> String</li>
+</ul>
+<p>Adds the specified path to DevTools workspace. Must be used after DevTools
+creation:</p>
+<pre><code class="lang-javascript">mainWindow.webContents.on(<span class="hljs-string">&apos;devtools-opened&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  mainWindow.webContents.addWorkSpace(__dirname);
+});
+</code></pre>
+<h3 id="webcontentsremoveworkspacepath"><code>webContents.removeWorkSpace(path)</code></h3>
+<ul>
+<li><code>path</code> String</li>
+</ul>
+<p>Removes the specified path from DevTools workspace.</p>
+<h3 id="webcontentsopendevtoolsoptions"><code>webContents.openDevTools([options])</code></h3>
+<ul>
+<li><code>options</code> Object (optional). Properties:<ul>
+<li><code>detach</code> Boolean - opens DevTools in a new window</li>
+</ul>
+</li>
+</ul>
+<p>Opens the developer tools.</p>
+<h3 id="webcontentsclosedevtools"><code>webContents.closeDevTools()</code></h3>
+<p>Closes the developer tools.</p>
+<h3 id="webcontentsisdevtoolsopened"><code>webContents.isDevToolsOpened()</code></h3>
+<p>Returns whether the developer tools are opened.</p>
+<h3 id="webcontentstoggledevtools"><code>webContents.toggleDevTools()</code></h3>
+<p>Toggles the developer tools.</p>
+<h3 id="webcontentsisdevtoolsfocused"><code>webContents.isDevToolsFocused()</code></h3>
+<p>Returns whether the developer tools is focused.</p>
+<h3 id="webcontentsinspectelementx-y"><code>webContents.inspectElement(x, y)</code></h3>
+<ul>
+<li><code>x</code> Integer</li>
+<li><code>y</code> Integer</li>
+</ul>
+<p>Starts inspecting element at position (<code>x</code>, <code>y</code>).</p>
+<h3 id="webcontentsinspectserviceworker"><code>webContents.inspectServiceWorker()</code></h3>
+<p>Opens the developer tools for the service worker context.</p>
+<h3 id="webcontentssendchannel-arg1-arg2-"><code>webContents.send(channel[, arg1][, arg2][, ...])</code></h3>
+<ul>
+<li><code>channel</code> String</li>
+<li><code>arg</code> (optional)</li>
+</ul>
+<p>Send an asynchronous message to renderer process via <code>channel</code>, you can also
+send arbitrary arguments. The renderer process can handle the message by
+listening to the <code>channel</code> event with the <code>ipcRenderer</code> module.</p>
+<p>An example of sending messages from the main process to the renderer process:</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// In the main process.</span>
+<span class="hljs-keyword">var</span> <span class="hljs-built_in">window</span> = <span class="hljs-literal">null</span>;
+app.on(<span class="hljs-string">&apos;ready&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-built_in">window</span> = <span class="hljs-keyword">new</span> BrowserWindow({width: <span class="hljs-number">800</span>, height: <span class="hljs-number">600</span>});
+  <span class="hljs-built_in">window</span>.loadURL(<span class="hljs-string">&apos;file://&apos;</span> + __dirname + <span class="hljs-string">&apos;/index.html&apos;</span>);
+  <span class="hljs-built_in">window</span>.webContents.on(<span class="hljs-string">&apos;did-finish-load&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">window</span>.webContents.send(<span class="hljs-string">&apos;ping&apos;</span>, <span class="hljs-string">&apos;whoooooooh!&apos;</span>);
+  });
+});
+</code></pre>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- index.html --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;electron&apos;</span>).ipcRenderer.on(<span class="hljs-string">&apos;ping&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event, message</span>) </span>{
+      <span class="hljs-built_in">console</span>.log(message);  <span class="hljs-comment">// Prints &quot;whoooooooh!&quot;</span>
+    });
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+<h3 id="webcontentsenabledeviceemulationparameters"><code>webContents.enableDeviceEmulation(parameters)</code></h3>
+<p><code>parameters</code> Object, properties:</p>
+<ul>
+<li><code>screenPosition</code> String - Specify the screen type to emulate
+  (default: <code>desktop</code>)<ul>
+<li><code>desktop</code></li>
+<li><code>mobile</code></li>
+</ul>
+</li>
+<li><code>screenSize</code> Object - Set the emulated screen size (screenPosition == mobile)<ul>
+<li><code>width</code> Integer - Set the emulated screen width</li>
+<li><code>height</code> Integer - Set the emulated screen height</li>
+</ul>
+</li>
+<li><code>viewPosition</code> Object - Position the view on the screen
+  (screenPosition == mobile) (default: <code>{x: 0, y: 0}</code>)<ul>
+<li><code>x</code> Integer - Set the x axis offset from top left corner</li>
+<li><code>y</code> Integer - Set the y axis offset from top left corner</li>
+</ul>
+</li>
+<li><code>deviceScaleFactor</code> Integer - Set the device scale factor (if zero defaults to
+  original device scale factor) (default: <code>0</code>)</li>
+<li><code>viewSize</code> Object - Set the emulated view size (empty means no override)<ul>
+<li><code>width</code> Integer - Set the emulated view width</li>
+<li><code>height</code> Integer - Set the emulated view height</li>
+</ul>
+</li>
+<li><code>fitToView</code> Boolean - Whether emulated view should be scaled down if
+  necessary to fit into available space (default: <code>false</code>)</li>
+<li><code>offset</code> Object - Offset of the emulated view inside available space (not in
+  fit to view mode) (default: <code>{x: 0, y: 0}</code>)<ul>
+<li><code>x</code> Float - Set the x axis offset from top left corner</li>
+<li><code>y</code> Float - Set the y axis offset from top left corner</li>
+</ul>
+</li>
+<li><code>scale</code> Float - Scale of emulated view inside available space (not in fit to
+  view mode) (default: <code>1</code>)</li>
+</ul>
+<p>Enable device emulation with the given parameters.</p>
+<h3 id="webcontentsdisabledeviceemulation"><code>webContents.disableDeviceEmulation()</code></h3>
+<p>Disable device emulation enabled by <code>webContents.enableDeviceEmulation</code>.</p>
+<h3 id="webcontentssendinputeventevent"><code>webContents.sendInputEvent(event)</code></h3>
+<ul>
+<li><code>event</code> Object<ul>
+<li><code>type</code> String (<strong>required</strong>) - The type of the event, can be <code>mouseDown</code>,
+<code>mouseUp</code>, <code>mouseEnter</code>, <code>mouseLeave</code>, <code>contextMenu</code>, <code>mouseWheel</code>,
+<code>mouseMove</code>, <code>keyDown</code>, <code>keyUp</code>, <code>char</code>.</li>
+<li><code>modifiers</code> Array - An array of modifiers of the event, can
+include <code>shift</code>, <code>control</code>, <code>alt</code>, <code>meta</code>, <code>isKeypad</code>, <code>isAutoRepeat</code>,
+<code>leftButtonDown</code>, <code>middleButtonDown</code>, <code>rightButtonDown</code>, <code>capsLock</code>,
+<code>numLock</code>, <code>left</code>, <code>right</code>.</li>
+</ul>
+</li>
+</ul>
+<p>Sends an input <code>event</code> to the page.</p>
+<p>For keyboard events, the <code>event</code> object also have following properties:</p>
+<ul>
+<li><code>keyCode</code> Char or String (<strong>required</strong>) - The character that will be sent
+as the keyboard event. Can be a single UTF-8 character, or the name of the
+key that generates the event. Accepted key names are <code>enter</code>, <code>backspace</code>,
+<code>delete</code>, <code>tab</code>, <code>escape</code>, <code>control</code>, <code>alt</code>, <code>shift</code>, <code>end</code>, <code>home</code>, <code>insert</code>,
+<code>left</code>, <code>up</code>, <code>right</code>, <code>down</code>, <code>pageUp</code>, <code>pageDown</code>, <code>printScreen</code></li>
+</ul>
+<p>For mouse events, the <code>event</code> object also have following properties:</p>
+<ul>
+<li><code>x</code> Integer (<strong>required</strong>)</li>
+<li><code>y</code> Integer (<strong>required</strong>)</li>
+<li><code>button</code> String - The button pressed, can be <code>left</code>, <code>middle</code>, <code>right</code></li>
+<li><code>globalX</code> Integer</li>
+<li><code>globalY</code> Integer</li>
+<li><code>movementX</code> Integer</li>
+<li><code>movementY</code> Integer</li>
+<li><code>clickCount</code> Integer</li>
+</ul>
+<p>For the <code>mouseWheel</code> event, the <code>event</code> object also have following properties:</p>
+<ul>
+<li><code>deltaX</code> Integer</li>
+<li><code>deltaY</code> Integer</li>
+<li><code>wheelTicksX</code> Integer</li>
+<li><code>wheelTicksY</code> Integer</li>
+<li><code>accelerationRatioX</code> Integer</li>
+<li><code>accelerationRatioY</code> Integer</li>
+<li><code>hasPreciseScrollingDeltas</code> Boolean</li>
+<li><code>canScroll</code> Boolean</li>
+</ul>
+<h3 id="webcontentsbeginframesubscriptioncallback"><code>webContents.beginFrameSubscription(callback)</code></h3>
+<ul>
+<li><code>callback</code> Function</li>
+</ul>
+<p>Begin subscribing for presentation events and captured frames, the <code>callback</code>
+will be called with <code>callback(frameBuffer)</code> when there is a presentation event.</p>
+<p>The <code>frameBuffer</code> is a <code>Buffer</code> that contains raw pixel data. On most machines,
+the pixel data is effectively stored in 32bit BGRA format, but the actual
+representation depends on the endianness of the processor (most modern
+processors are little-endian, on machines with big-endian processors the data
+is in 32bit ARGB format).</p>
+<h3 id="webcontentsendframesubscription"><code>webContents.endFrameSubscription()</code></h3>
+<p>End subscribing for frame presentation events.</p>
+<h3 id="webcontentssavepagefullpath-savetype-callback"><code>webContents.savePage(fullPath, saveType, callback)</code></h3>
+<ul>
+<li><code>fullPath</code> String - The full file path.</li>
+<li><code>saveType</code> String - Specify the save type.<ul>
+<li><code>HTMLOnly</code> - Save only the HTML of the page.</li>
+<li><code>HTMLComplete</code> - Save complete-html page.</li>
+<li><code>MHTML</code> - Save complete-html page as MHTML.</li>
+</ul>
+</li>
+<li><code>callback</code> Function - <code>function(error) {}</code>.<ul>
+<li><code>error</code> Error</li>
+</ul>
+</li>
+</ul>
+<p>Returns true if the process of saving page has been initiated successfully.</p>
+<pre><code class="lang-javascript">win.loadURL(<span class="hljs-string">&apos;https://github.com&apos;</span>);
+
+win.webContents.on(<span class="hljs-string">&apos;did-finish-load&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  win.webContents.savePage(<span class="hljs-string">&apos;/tmp/test.html&apos;</span>, <span class="hljs-string">&apos;HTMLComplete&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{
+    <span class="hljs-keyword">if</span> (!error)
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;Save page successfully&quot;</span>);
+  });
+});
+</code></pre>
+<h2 id="instance-properties">Instance Properties</h2>
+<p><code>WebContents</code> objects also have the following properties:</p>
+<h3 id="webcontentssession"><code>webContents.session</code></h3>
+<p>Returns the <a href="session.html">session</a> object used by this webContents.</p>
+<h3 id="webcontentsdevtoolswebcontents"><code>webContents.devToolsWebContents</code></h3>
+<p>Get the <code>WebContents</code> of DevTools for this <code>WebContents</code>.</p>
+<p><strong>Note:</strong> Users should never store this object because it may become <code>null</code>
+when the DevTools has been closed.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../api/session.html" class="navigation navigation-prev " aria-label="Previous page: session"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../api/tray.html" class="navigation navigation-next " aria-label="Next page: Tray"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
