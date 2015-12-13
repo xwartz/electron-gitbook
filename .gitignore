@@ -1,1 +1,9 @@
 _book
+DS_Store
+.tags*
+node_modules/
+*.xcodeproj
+*.swp
+*.pyc
+debug.log
+npm-debug.log

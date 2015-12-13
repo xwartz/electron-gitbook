@@ -4,6 +4,8 @@
   "description": "This is a GitBook version of the electron's doc.",
   "main": "index.js",
   "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/xwartz/electron-gitbook/issues"
   },
-  "homepage": "https://github.com/xwartz/electron-gitbook"
+  "homepage": "https://github.com/xwartz/electron-gitbook",
+  "devDependencies": {
+    "gitbook": "^2.6.5"
+  }
 }
