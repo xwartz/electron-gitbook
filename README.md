@@ -1,5 +1,5 @@
- [electron-gitbook](https://github.com/xwartz/electron-gitbook)
- ======
+[electron-gitbook](https://github.com/xwartz/electron-gitbook)
+======
 
 [![Electron Logo](http://electron.atom.io/images/electron-logo.svg)](http://electron.atom.io/)
 
