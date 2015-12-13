@@ -1,0 +1,24 @@
+{
+  "name": "electron-gitbook",
+  "version": "1.0.0",
+  "description": "This is a GitBook version of the electron's doc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xwartz/electron-gitbook.git"
+  },
+  "keywords": [
+    "electron",
+    "doc",
+    "gitbook"
+  ],
+  "author": "xwartz <stddup@gmail.com> (https://github.com/xwartz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwartz/electron-gitbook/issues"
+  },
+  "homepage": "https://github.com/xwartz/electron-gitbook"
+}
